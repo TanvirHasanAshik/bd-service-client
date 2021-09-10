@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color: rgb(80, 79, 79);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-brand{
+  margin-left: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
+.nav-brand{
+  text-decoration: none;
+  margin-left: 10px;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.navbar-collapse li a{
+  color: gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.brand-img{
+  width: 50px;
+}
+.brand-btn{
+  background-color: goldenrod;
+  color:rgb(44, 43, 43)
+}
+.header-container{
+  min-height: 400px;
+  background-image: url('../src/images/headerBg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.work-container div{
+  padding: 40px;
+}
+.work-img img{
+  width: 100%;
+  border-radius: 10%;
+}
+.serviceManImg{
+  margin-left: -50px;
+}
+.provide-service {
+  padding-left: 70px;
+}
+.sidebar{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-left: 100px;
+  position:fixed;
+  background-image: linear-gradient(45deg, rgb(26, 24, 24), rgb(51, 48, 39));
+}
+.sidebar a{
   color: white;
+  text-decoration: none;
+  display: block;
+  padding-top: 20px;
+}
+span{
+  color: goldenrod;
+}
+.form-group{
+  margin: 10px;
+}
+.service{
+  border: 1px solid lightgray;
+}
+.service:hover{
+  cursor: pointer;
+  color: blueviolet;
+}
+.service img{
+  width: 100px;
+}
+.trust-container{
+  /* min-height: 50vh;
+  background-image: url('../../client/src/images/trust.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  background-image: linear-gradient(180deg, purple, rgb(57, 57, 129));
+}
+.trust-container h3{
+  color:wheat;
+}
+.likeIcon{
+  color:rgb(241, 241, 245);
+  background-image: linear-gradient(45deg, purple, rgb(124, 124, 182));
+  font-size: 5em;
+  padding: 20px;
+  border-radius: 100%;
+}
+.carousel-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.icon{
+  color: rgb(241, 241, 245);
+  font-size: 2em;
+}
+.details-container{
+  min-height: 90vh;
+  background-image: url('../src/images/book-bg.jpg');
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.book-header{
+  height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 255), rgb(94, 65, 94));
+  position: absolute;
+  opacity: 0.9;
+}
+.title{
+  color:rgb(241, 241, 245)
+}
+.benefit-service{
+  color: goldenrod;
+}
+.service-image img{
+  border-radius: 10px;
+}
+.AskedQuestions{
+  min-height: 80vh;
+  background-image: linear-gradient(45deg, purple, rgb(27, 26, 23));
+  color: goldenrod;
+}
+.bookSection{
+  min-height: 50vh;
+  background-color: purple;
+}
+.bookingService{
+  min-height: 100vh;
+  background-color: purple;
+}
+.bookingCard img{
+  width: 200px;
+  height: 200px;
+}
+.service-card{
+  position: relative;
+  left: 200px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+.ServiceProvides{
+  min-height: 50vh;
+  background-color: rgb(245, 245, 245);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
